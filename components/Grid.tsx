@@ -1,6 +1,7 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { gridItems } from "@/data";
+import dynamic from "next/dynamic";
 
 const Grid = () => {
   return (
@@ -24,4 +25,4 @@ const Grid = () => {
   );
 };
 
-export default Grid;
+export default dynamic(() => Promise.resolve(Grid), { ssr: false });

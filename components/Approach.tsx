@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+import dynamic from "next/dynamic";
 
 const Approach = () => {
   return (
@@ -56,7 +57,7 @@ const Approach = () => {
   );
 };
 
-export default Approach;
+export default dynamic(() => Promise.resolve(Approach), { ssr: false });
 
 const Card = ({
   title,

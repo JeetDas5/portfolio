@@ -8,8 +8,9 @@ import {
 } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 
-export const FloatingNav = ({
+const FloatingNav = ({
   navItems,
   className,
 }: {
@@ -76,3 +77,5 @@ export const FloatingNav = ({
     </AnimatePresence>
   );
 };
+
+export default dynamic(() => Promise.resolve(FloatingNav), { ssr: false });

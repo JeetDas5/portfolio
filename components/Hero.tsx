@@ -3,6 +3,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import dynamic from "next/dynamic";
 
 const Hero = () => {
   return (
@@ -46,4 +47,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default dynamic(() => Promise.resolve(Hero), { ssr: false });

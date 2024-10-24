@@ -3,6 +3,7 @@ import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 
 const Footer = () => {
   return (
@@ -46,4 +47,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default dynamic(() => Promise.resolve(Footer), { ssr: false });
