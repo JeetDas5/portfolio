@@ -107,31 +107,31 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/JeetDas5",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/I_am_Jeet5",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/jeet-das-7633a52ab",
   },
 ];
