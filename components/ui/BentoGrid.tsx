@@ -66,6 +66,8 @@ export const BentoGridItem = ({
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
+  const isClient = typeof window !== 'undefined';
+  
 
   return (
     <div
@@ -163,7 +165,9 @@ export const BentoGridItem = ({
                   copied ? "block" : "block"
                 }`}
               >
-                <Lottie options={defaultOptions} height={200} width={400} />
+                {isClient && (
+                  <Lottie options={defaultOptions} height={200} width={400} />
+                )}
               </div>
 
               <MagicButton

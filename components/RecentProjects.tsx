@@ -4,6 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
+import dynamic from "next/dynamic";
 
 const RecentProjects = () => {
   return (
@@ -73,4 +74,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default dynamic(() => Promise.resolve(RecentProjects), { ssr: false });

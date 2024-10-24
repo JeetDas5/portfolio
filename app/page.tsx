@@ -1,12 +1,15 @@
+import dynamic from "next/dynamic";
 import Approach from "@/components/Approach";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
+
+// Dynamically import Grid component with no SSR
+const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 
 export default function Home() {
   return (
@@ -14,7 +17,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <Grid />
+        <Grid /> {/* No need for isClient check */}
         <RecentProjects />
         <Clients />
         <Experience />
