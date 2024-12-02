@@ -1,10 +1,15 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
+import Image from "next/image";
 import { projects } from "@/data";
-import { PinContainer } from "./ui/3d-pin";
 import dynamic from "next/dynamic";
+// import { PinContainer } from "./ui/3d-pin";
+const PinContainer = dynamic(() => import('./ui/3d-pin'), {
+  ssr: false,
+  loading: () => <div>Loading 3D pin...</div>, // Optional fallback
+});
+
 
 const RecentProjects = () => {
   return (
@@ -19,28 +24,32 @@ const RecentProjects = () => {
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={id}
           >
-            <PinContainer title={link} href={link}>
+            <PinContainer title={link} href={link}  >
               <div className="relative flex items-center justify-center sm:w-96 sm:h-[40vh] w-[80vw] overflow-hidden h-[20vh] mb-10">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-                  <img src="/bg.png" alt="bgimg" />
+                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-dark-blue">
+                  <Image
+                    src="/bg.png"
+                    alt="bgimg"
+                    layout="fill"
+                    objectFit="cover"
+                    unoptimized
+                  />
                 </div>
-                <img src={img} alt="cover" className="z-10 absolute bottom-0" />
+                <Image
+                  src={img}
+                  alt="cover"
+                  className="z-10 absolute bottom-0"
+                  width={200}
+                  height={200}
+                  unoptimized
+                />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
               </h1>
 
-              <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
-                style={{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
-                }}
-              >
+              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 text-gray-400 my-2">
                 {des}
               </p>
 
@@ -54,7 +63,14 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image
+                        src={icon}
+                        alt="icon"
+                        width={30}
+                        height={30}
+                        className="p-2"
+                        unoptimized
+                      />
                     </div>
                   ))}
                 </div>
@@ -74,4 +90,4 @@ const RecentProjects = () => {
   );
 };
 
-export default dynamic(() => Promise.resolve(RecentProjects), { ssr: false });
+export default RecentProjects;

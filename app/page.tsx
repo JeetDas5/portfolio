@@ -1,3 +1,5 @@
+'use client';
+
 import dynamic from "next/dynamic";
 import { navItems } from "@/data";
 
@@ -8,8 +10,10 @@ const RecentProjects = dynamic(() => import("@/components/RecentProjects"), { ss
 const Clients = dynamic(() => import("@/components/Clients"), { ssr: false });
 const Experience = dynamic(() => import("@/components/Experience"), { ssr: false });
 const Approach = dynamic(() => import("@/components/Approach"), { ssr: false });
+
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false });
 import FloatingNav from "@/components/ui/FloatingNav";
+
 
 export default function Home() {
   return (
@@ -17,7 +21,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <Grid /> {/* No need for isClient check */}
+        <Grid />
         <RecentProjects />
         <Clients />
         <Experience />

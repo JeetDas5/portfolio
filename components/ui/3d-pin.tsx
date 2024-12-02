@@ -12,7 +12,7 @@ export const PinContainer = ({
   className,
   containerClassName,
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   title?: string;
   href?: string;
   className?: string;
@@ -166,4 +166,4 @@ const PinPerspective = ({
   );
 };
 
-export default dynamic(() => Promise.resolve(PinPerspective), { ssr: false });
+export default dynamic(() => Promise.resolve(PinContainer), { ssr: false });
