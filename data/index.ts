@@ -23,7 +23,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "",
+    img: "/globe.jpg",
     spareImg: "",
   },
   {
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently learning a Three JS library",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "A real-time chat application",
+    des: "A seamless messaging experience with real-time updates",
+    img: "/chat.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/redux.svg","/mongo.svg"],
+    link: "https://github.com/JeetDas5/Full-Stack-Chat-app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "MysteryMessage",
+    des: "An anonymous messaging platform built with Next.js, TypeScript, and Tailwind CSS. It allows users to send anonymous messages securely and seamlessly. ",
+    img: "/mm.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/gemini.svg"],
+    link: "https://mystery-message-jeet.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Music Academy",
+    des: "A frontend website for music school.",
+    img: "/ms.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://music-school-next-js-jeet.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Food Delivery Website",
+    des: "A full stack food delivery website with admin panel.",
+    img: "/fd.png",
+    iconLists: ["/re.svg", "/tail.svg","/stripe.svg"],
+    link: "https://github.com/JeetDas5/Food-delivery",
   },
 ];
 
@@ -173,31 +173,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Bachelor of Technology in Computer Science - KIIT University",
+    desc: "Pursuing a B.Tech degree in Computer Science, focusing on web development and software engineering",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/kiit.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "12th Grade - Science Stream Baranagar Narendranath Vidyamandir",
+    desc: "Completed 12th grade with a focus on Mathematics, Physics, and Computer Science, achieving a high percentage in the board exams.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/bnv.jpg",
   },
 ];
 
