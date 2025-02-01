@@ -4,6 +4,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -34,13 +35,13 @@ const Hero = () => {
           <p className="md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi I&apos;am, a Next.Js Developer based in India
           </p>
-          <a href="#about">
+          <Link href="#about">
             <MagicButton
-            title="Show My Work" 
-            icon={<FaLocationArrow/>}
-            position="right"
+              title="Show My Work"
+              icon={<FaLocationArrow />}
+              position="right"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,16 +1,20 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradiantBg";
 import Lottie from "react-lottie";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
-import { GlobeDemo } from "./GridGlobe";
+
+
+const GlobeDemo = dynamic(() => import("@/components/ui/GridGlobe"), {
+  ssr: false,
+});
 
 export const BentoGrid = ({
-  className,
   children,
 }: {
   className?: string;
@@ -19,8 +23,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
-        className
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-3 md:grid-row-3 gap-4 lg:gap-8 mx-auto"
       )}
     >
       {children}
@@ -29,7 +32,6 @@ export const BentoGrid = ({
 };
 
 export const BentoGridItem = ({
-  className,
   id,
   title,
   description,
@@ -66,14 +68,12 @@ export const BentoGridItem = ({
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
-  const isClient = typeof window !== 'undefined';
-  
+  const isClient = typeof window !== "undefined";
 
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
-        className
+        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4"
       )}
       style={{
         background: "rgb(4,7,29)",
@@ -108,7 +108,7 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
-            {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
+            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
           </BackgroundGradientAnimation>
         )}
 
@@ -132,7 +132,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 h-full">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 ">
+              <div className="flex flex-col gap-3 md:gap-3">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}

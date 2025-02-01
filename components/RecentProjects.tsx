@@ -5,11 +5,10 @@ import Image from "next/image";
 import { projects } from "@/data";
 import dynamic from "next/dynamic";
 // import { PinContainer } from "./ui/3d-pin";
-const PinContainer = dynamic(() => import('./ui/3d-pin'), {
+const PinContainer = dynamic(() => import("./ui/3d-pin"), {
   ssr: false,
   loading: () => <div>Loading 3D pin...</div>, // Optional fallback
 });
-
 
 const RecentProjects = () => {
   return (
@@ -24,14 +23,14 @@ const RecentProjects = () => {
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={id}
           >
-            <PinContainer title={link} href={link}  >
+            <PinContainer title={link} href={link}>
               <div className="relative flex items-center justify-center sm:w-96 sm:h-[40vh] w-[80vw] overflow-hidden h-[20vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-dark-blue">
                   <Image
                     src="/bg.png"
                     alt="bgimg"
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    style={{ objectFit: "cover" }}
                     unoptimized
                   />
                 </div>
