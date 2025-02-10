@@ -1,6 +1,7 @@
 export const navItems = [
   { name: "Home", link: "#home" },
   { name: "Projects", link: "#projects" },
+  { name: "Experience", link: "#experience" },
   { name: "About", link: "#about" },
   { name: "Contact", link: "#contact" },
 ];
@@ -204,3 +205,7 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/jeet-das-7633a52ab",
   },
 ];
+
+export const societyExperience = [
+  
+]

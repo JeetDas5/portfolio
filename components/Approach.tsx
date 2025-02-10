@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -17,9 +17,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="We'll outline your website's vision, define the audience, and establish core features. Discussions will cover site structure, navigation, and content strategy."
         >
           {/* <CanvasRevealEffect
             animationSpeed={5.1}
@@ -30,9 +28,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="With the plan set, I start coding while keeping you in the loop. From early drafts to refined implementation, I'll ensure you're updated regularly."
         >
           {/* <CanvasRevealEffect
             animationSpeed={3}
@@ -52,9 +48,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Bringing everything together, I turn designs into a fully functional website, ensuring it's polished and ready to go live."
         >
           {/* <CanvasRevealEffect
             animationSpeed={3}

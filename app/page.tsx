@@ -13,6 +13,7 @@ const Approach = dynamic(() => import("@/components/Approach"), { ssr: false });
 
 const Footer = dynamic(() => import("@/components/Footer"), { ssr: false });
 import FloatingNav from "@/components/ui/FloatingNav";
+import { Society } from "@/components/Society";
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         {/* <Clients /> */}
+        <Society/>
         <Experience />
         <Approach />
         <Footer />
