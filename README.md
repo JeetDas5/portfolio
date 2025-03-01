@@ -43,31 +43,30 @@ This portfolio is built using the following technologies:
 To get started with this project, follow the steps below:
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/your-username/your-portfolio.git
    ```
 
-````
 
 2. Navigate to the project directory:
-   ```bash
+   ```
    cd your-portfolio
-````
+   ````
 
 3. Install the dependencies:
    ```bash
    npm install
    ```
 
-````
 
 ## Usage
 
 To run the project locally, use the following command:
 
-```bash
-npm run dev
-````
+   ```
+   npm run dev
+   ````
+
 
 This will start the development server at `http://localhost:3000`.
 
@@ -78,7 +77,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
 3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
+4. Commit your changes (`git commit -m 'Add new feature'`).
 5. Push to the branch (`git push origin feature-branch`).
 6. Create a new Pull Request.
 

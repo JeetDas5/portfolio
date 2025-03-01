@@ -46,20 +46,7 @@ const dummyContent = [
         <p>Currently working on CampusFeed - a Notice Board app.</p>
       </>
     ),
-  },
-  {
-    image: "/kes.jpg",
-    duration: "2024 - Present",
-    title: "Web Developer - KES",
-    description: (
-      <>
-        <p>
-          Went to Kshitij 2025 for 36 hour web-a-thon. Currently working on
-          revamping the KES official website.
-        </p>
-      </>
-    ),
-  },
+  }
 ];
 
 export function Society() {
