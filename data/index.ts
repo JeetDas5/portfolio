@@ -205,7 +205,3 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/jeet-das-7633a52ab",
   },
 ];
-
-export const societyExperience = [
-  
-]
