@@ -34,7 +34,7 @@ const Hero = () => {
             words="Transforming Concepts into Seamless User Experiences"
           />
           <p className="md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi I&apos;am, a Next.Js Developer based in India
+            Hi I&apos;am, a Next.Js Developer based in Kolkata, India
           </p>
           <Link href="#about">
             <MagicButton
