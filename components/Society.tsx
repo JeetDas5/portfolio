@@ -43,7 +43,7 @@ const dummyContent = [
     title: "Web Developer - Konnexions",
     description: (
       <>
-        <p>Currently working on CampusFeed - a Notice Board app.</p>
+        <p>Currently working on KwickSwap - A section swap app beneficial for students.</p>
       </>
     ),
   },

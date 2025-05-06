@@ -9,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I value collaboration and open communication with others",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I am flexible and adaptable when it comes to time zone differences",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently learning a Three JS library",
+    title: "Currently learning Docker and Kubernetes",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,6 +73,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "VOCIFY: An AI powered interview platform",
+    des: "A platform that helps you prepare for your interviews and also give you feedback.",
+    img: "/vocify.png",
+    iconLists: ["/next.svg", "/tail.svg","/ts.svg","/firebase.svg"],
+    link: "https://vocify.jeetdas.tech",
+  },
+  {
+    id: 2,
     title: "A real-time chat application",
     des: "A seamless messaging experience with real-time updates",
     img: "/chat.png",
@@ -80,7 +88,7 @@ export const projects = [
     link: "https://github.com/JeetDas5/Full-Stack-Chat-app",
   },
   {
-    id: 2,
+    id: 3,
     title: "MysteryMessage",
     des: "An anonymous messaging platform built with Next.js, TypeScript, and Tailwind CSS. It allows users to send anonymous messages securely and seamlessly. ",
     img: "/mm.png",
@@ -88,20 +96,12 @@ export const projects = [
     link: "https://mystery-message-jeet.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Music Academy",
     des: "A frontend website for music school.",
     img: "/ms.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://music-school-next-js-jeet.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Food Delivery Website",
-    des: "A full stack food delivery website with admin panel.",
-    img: "/fd.png",
-    iconLists: ["/re.svg", "/tail.svg","/stripe.svg"],
-    link: "https://github.com/JeetDas5/Food-delivery",
   },
 ];
 

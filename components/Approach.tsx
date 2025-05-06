@@ -3,59 +3,28 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
-
 const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
         My <span className="text-purple">approach</span>
       </h1>
-      {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        {/* add des prop */}
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll outline your website's vision, define the audience, and establish core features. Discussions will cover site structure, navigation, and content strategy."
-        >
-          {/* <CanvasRevealEffect
-            animationSpeed={5.1}
-            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
-          /> */}
-        </Card>
+          des="I'll work with you to understand what the website should do, who it's for, and how it might look. We'll keep things simple and figure out a basic structure together."
+        ></Card>
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="With the plan set, I start coding while keeping you in the loop. From early drafts to refined implementation, I'll ensure you're updated regularly."
-        >
-          {/* <CanvasRevealEffect
-            animationSpeed={3}
-            // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
-            colors={[
-              // change the colors of the
-              [255, 166, 158],
-              [221, 255, 247],
-            ]}
-            dotSize={2}
-          /> */}
-          {/* Radial gradient for the cute fade */}
-          {/* remove this one */}
-          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
-        </Card>
+          des="As I start building the site, Ill share updates and check in often. It&apos;s all a learning process, and I&apos;ll keep improving things as I go."
+        ></Card>
         <Card
-          title="Development & Launch"
+          title="Final Touches & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="Bringing everything together, I turn designs into a fully functional website, ensuring it's polished and ready to go live."
-        >
-          {/* <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
-          /> */}
-        </Card>
+          des="Once everythings in place, Ill make sure the site works smoothly and help get it ready to launch."
+        ></Card>
       </div>
     </section>
   );
