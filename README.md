@@ -44,13 +44,13 @@ To get started with this project, follow the steps below:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/JeetDas5/portfolio.git
    ```
 
 
 2. Navigate to the project directory:
    ```
-   cd your-portfolio
+   cd portfolio
    ````
 
 3. Install the dependencies:
