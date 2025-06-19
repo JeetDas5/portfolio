@@ -81,28 +81,30 @@ export const projects = [
   },
   {
     id: 2,
+    title: "LEARNSPHERE: Your Own Learning Companion",
+    des: "LearnSphere is a modern SaaS learning platform that empowers users to interact with AI-powered voice tutors.",
+    img: "/learnsphere.png",
+    iconLists: ["/next.svg", "/tail.svg","/ts.svg","/supabase.svg"],
+    link: "https://learnsphere.jeetdas.tech",
+  },
+  {
+    id: 3,
+    title: "3D Portfolio",
+    des: "A 3D portfolio made with three Js showcasing my skills and projects",
+    img: "/3d.png",
+    iconLists: ["/re.svg","/three.svg"],
+    link: "https://3dportfolio.jeetdas.tech",
+  },
+  
+  {
+    id: 4,
     title: "A real-time chat application",
     des: "A seamless messaging experience with real-time updates",
     img: "/chat.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/redux.svg","/mongo.svg"],
     link: "https://github.com/JeetDas5/Full-Stack-Chat-app",
   },
-  {
-    id: 3,
-    title: "MysteryMessage",
-    des: "An anonymous messaging platform built with Next.js, TypeScript, and Tailwind CSS. It allows users to send anonymous messages securely and seamlessly. ",
-    img: "/mm.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/gemini.svg"],
-    link: "https://mystery-message-jeet.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Music Academy",
-    des: "A frontend website for music school.",
-    img: "/ms.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://music-school-next-js-jeet.vercel.app/",
-  },
+  
 ];
 
 export const testimonials = [
