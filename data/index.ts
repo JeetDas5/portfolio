@@ -98,11 +98,11 @@ export const projects = [
   
   {
     id: 4,
-    title: "A real-time chat application",
-    des: "A seamless messaging experience with real-time updates",
-    img: "/chat.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/redux.svg","/mongo.svg"],
-    link: "https://github.com/JeetDas5/Full-Stack-Chat-app",
+    title: "MysteryMessage",
+    des: "An anonymous messaging platform built with Next.js, TypeScript, and Tailwind CSS. It allows users to send anonymous messages securely and seamlessly. ",
+    img: "/mm.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/gemini.svg"],
+    link: "https://mystery-message-jeet.vercel.app",
   },
   
 ];
