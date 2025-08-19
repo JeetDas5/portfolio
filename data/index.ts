@@ -73,6 +73,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Resumind",
+    des: "Smart, AI-powered resume feedback with ATS scoring, improvement tips, and application tracking. Resumind lets you upload a resume (PDF), analyzes it with an AI model, and provides structured feedback across ATS fit, tone & style, content, structure, and skills.",
+    img: "/resumind.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://resumind.jeetdas.tech",
+  },
+  {
+    id: 2,
     title: "VOCIFY: An AI powered interview platform",
     des: "A platform that helps you prepare for your interviews and also give you feedback.",
     img: "/vocify.png",
@@ -80,7 +88,7 @@ export const projects = [
     link: "https://vocify.jeetdas.tech",
   },
   {
-    id: 2,
+    id: 3,
     title: "LEARNSPHERE: Your Own Learning Companion",
     des: "LearnSphere is a modern SaaS learning platform that empowers users to interact with AI-powered voice tutors.",
     img: "/learnsphere.png",
@@ -88,21 +96,12 @@ export const projects = [
     link: "https://learnsphere.jeetdas.tech",
   },
   {
-    id: 3,
+    id: 4,
     title: "3D Portfolio",
     des: "A 3D portfolio made with three Js showcasing my skills and projects",
     img: "/3d.png",
     iconLists: ["/re.svg","/three.svg"],
     link: "https://3dportfolio.jeetdas.tech",
-  },
-  
-  {
-    id: 4,
-    title: "MysteryMessage",
-    des: "An anonymous messaging platform built with Next.js, TypeScript, and Tailwind CSS. It allows users to send anonymous messages securely and seamlessly. ",
-    img: "/mm.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mongo.svg", "/gemini.svg"],
-    link: "https://mystery-message-jeet.vercel.app",
   },
   
 ];
@@ -179,6 +178,7 @@ export const workExperience = [
     title: "Bachelor of Technology in Computer Science - KIIT University",
     desc: "Pursuing a B.Tech degree in Computer Science, focusing on web development and software engineering",
     className: "md:col-span-2",
+    points: 91.2,
     thumbnail: "/kiit.png",
   },
   {
@@ -186,6 +186,7 @@ export const workExperience = [
     title: "12th Grade - Science Stream Baranagar Narendranath Vidyamandir",
     desc: "Completed 12th grade with a focus on Mathematics, Physics, and Computer Science, achieving a high percentage in the board exams.",
     className: "md:col-span-2",
+    points: 81,
     thumbnail: "/bnv.jpg",
   },
 ];

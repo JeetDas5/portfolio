@@ -11,18 +11,28 @@ const calsans = localFont({
 
 const dummyContent = [
   {
-    image: "/gfg.jpg",
-    duration: "2023 - Present",
-    title: "Administration - GFG KIIT",
+    image: "/pv.jpg",
+    duration: "2025 - Present",
+    title: "Full Stack Developer Intern - Prime Vacations",
     description: (
       <>
         <p>
-          Organised few events like Genesis-speaker session, Relaython-3 hour
-          hackathon. Currently serving as POC of AI/ML domain.
+          Contributed to the development of the Prime Vacations' official website.
         </p>
       </>
     ),
   },
+  {
+    image: "/konnexions.jpg",
+    duration: "2023 - Present",
+    title: "Web Developer - Konnexions",
+    description: (
+      <>
+        <p>Currently working on KwickSwap - A section swap app beneficial for students.</p>
+      </>
+    ),
+  },
+
   {
     image: "/iot.jpg",
     duration: "2023 - Present",
@@ -38,12 +48,15 @@ const dummyContent = [
     ),
   },
   {
-    image: "/konnexions.jpg",
+    image: "/gfg.jpg",
     duration: "2023 - Present",
-    title: "Web Developer - Konnexions",
+    title: "Administration - GFG KIIT",
     description: (
       <>
-        <p>Currently working on KwickSwap - A section swap app beneficial for students.</p>
+        <p>
+          Organised few events like Genesis-speaker session, Relaython-3 hour
+          hackathon. Currently serving as POC of AI/ML domain.
+        </p>
       </>
     ),
   },

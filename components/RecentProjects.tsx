@@ -4,10 +4,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 import Image from "next/image";
 import { projects } from "@/data";
 import dynamic from "next/dynamic";
-// import { PinContainer } from "./ui/3d-pin";
 const PinContainer = dynamic(() => import("./ui/3d-pin"), {
   ssr: false,
-  loading: () => <div>Loading 3D pin...</div>, // Optional fallback
+  loading: () => <div>Loading 3D pin...</div>,
 });
 
 const RecentProjects = () => {
