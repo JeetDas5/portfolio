@@ -11,13 +11,27 @@ const calsans = localFont({
 
 const dummyContent = [
   {
-    image: "/pv.jpg",
+    image: "/sida.png",
     duration: "2025 - Present",
     title: "Full Stack Developer Intern - Prime Vacations",
     description: (
       <>
         <p>
-          Contributed to the development of the Prime Vacations' official website.
+          Contributed to front-end development using React.js by implementing UI improvements and resolving design issues in
+client projects.
+        </p>
+      </>
+    ),
+  },
+  {
+    image: "/pv.jpg",
+    duration: "2025 August - 2025 September",
+    title: "Full Stack Developer Intern - Prime Vacations",
+    description: (
+      <>
+        <p>
+          Contributed to the development of the Prime Vacations' official
+          website and package builder - an internal tool for sales team.
         </p>
       </>
     ),
@@ -25,14 +39,28 @@ const dummyContent = [
   {
     image: "/konnexions.jpg",
     duration: "2023 - Present",
-    title: "Web Developer - Konnexions",
+    title: "Web Dev Lead - Konnexions",
     description: (
       <>
-        <p>Currently working on KwickSwap - A section swap app beneficial for students.</p>
+        <p>
+          Worked on several key projects and events like Kodesphere, Kwickswap, AI Odessey, KSAC Venue Booking System.
+        </p>
       </>
     ),
   },
-
+  {
+    image: "/gfg.jpg",
+    duration: "2023 - Present",
+    title: "Administration Lead - GFG KIIT",
+    description: (
+      <>
+        <p>
+          Organised few events like Genesis-speaker session, Relaython-3 hour
+          hackathon. Currently serving as POC of AI/ML domain.
+        </p>
+      </>
+    ),
+  },
   {
     image: "/iot.jpg",
     duration: "2023 - Present",
@@ -43,19 +71,6 @@ const dummyContent = [
           Built the Innovance website and a sample portfolio website for the
           event INNOVANCE 3.O. Currently working on Nexturday - an event
           management app.
-        </p>
-      </>
-    ),
-  },
-  {
-    image: "/gfg.jpg",
-    duration: "2023 - Present",
-    title: "Administration - GFG KIIT",
-    description: (
-      <>
-        <p>
-          Organised few events like Genesis-speaker session, Relaython-3 hour
-          hackathon. Currently serving as POC of AI/ML domain.
         </p>
       </>
     ),
