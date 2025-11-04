@@ -13,7 +13,7 @@ const dummyContent = [
   {
     image: "/sida.png",
     duration: "2025 - Present",
-    title: "Full Stack Developer Intern - Prime Vacations",
+    title: "Frontend Developer Intern - SIDA Technologies",
     description: (
       <>
         <p>
