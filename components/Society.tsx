@@ -4,78 +4,13 @@ import localFont from "next/font/local";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "./ui/tracing-beam";
+import { workExperience } from "@/data";
 
 const calsans = localFont({
   src: "../app/fonts/CalSans-SemiBold.woff",
 });
 
-const dummyContent = [
-  {
-    image: "/sida.png",
-    duration: "2025 - Present",
-    title: "Frontend Developer Intern - SIDA Technologies",
-    description: (
-      <>
-        <p>
-          Contributed to front-end development using React.js by implementing UI improvements and resolving design issues in
-client projects.
-        </p>
-      </>
-    ),
-  },
-  {
-    image: "/pv.jpg",
-    duration: "2025 August - 2025 September",
-    title: "Full Stack Developer Intern - Prime Vacations",
-    description: (
-      <>
-        <p>
-          Contributed to the development of the Prime Vacations' official
-          website and package builder - an internal tool for sales team.
-        </p>
-      </>
-    ),
-  },
-  {
-    image: "/konnexions.jpg",
-    duration: "2023 - Present",
-    title: "Web Dev Lead - Konnexions",
-    description: (
-      <>
-        <p>
-          Worked on several key projects and events like Kodesphere, Kwickswap, AI Odessey, KSAC Venue Booking System.
-        </p>
-      </>
-    ),
-  },
-  {
-    image: "/gfg.jpg",
-    duration: "2023 - Present",
-    title: "Administration Lead - GFG KIIT",
-    description: (
-      <>
-        <p>
-          Organised few events like Genesis-speaker session, Relaython-3 hour
-          hackathon. Currently serving as POC of AI/ML domain.
-        </p>
-      </>
-    ),
-  },
-  {
-    image: "/iot.jpg",
-    duration: "2023 - Present",
-    title: "Web Developer - IoT Lab KIIT",
-    description: (
-      <>
-        <p>
-          Built the Innovance website and a sample portfolio website for the
-          event INNOVANCE 3.O. Currently working on Nexturday - an event
-          management app.
-        </p>
-      </>
-    ),
-  },
-];
+
 
 export function Society() {
   return (
@@ -85,7 +20,7 @@ export function Society() {
       </h1>
       <TracingBeam className="px-4">
         <div className="max-w-lg mx-auto antialiased pt-4 relative">
-          {dummyContent.map((item, index) => (
+          {workExperience.map((item, index) => (
             <div
               key={`content-${index}`}
               className="mb-6 p-4 bg-[#0a0e29] rounded-lg border border-[#1c2a56] shadow-md"

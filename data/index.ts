@@ -84,7 +84,7 @@ export const projects = [
     title: "VOCIFY: An AI powered interview platform",
     des: "A platform that helps you prepare for your interviews and also give you feedback.",
     img: "/vocify.png",
-    iconLists: ["/next.svg", "/tail.svg","/ts.svg","/firebase.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/firebase.svg"],
     link: "https://vocify.jeetdas.tech",
   },
   {
@@ -92,7 +92,7 @@ export const projects = [
     title: "LEARNSPHERE: Your Own Learning Companion",
     des: "LearnSphere is a modern SaaS learning platform that empowers users to interact with AI-powered voice tutors.",
     img: "/learnsphere.png",
-    iconLists: ["/next.svg", "/tail.svg","/ts.svg","/supabase.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/supabase.svg"],
     link: "https://learnsphere.jeetdas.tech",
   },
   {
@@ -100,10 +100,9 @@ export const projects = [
     title: "3D Portfolio",
     des: "A 3D portfolio made with three Js showcasing my skills and projects",
     img: "/3d.png",
-    iconLists: ["/re.svg","/three.svg"],
+    iconLists: ["/re.svg", "/three.svg"],
     link: "https://3dportfolio.jeetdas.tech",
   },
-  
 ];
 
 export const testimonials = [
@@ -172,13 +171,13 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const academicsExperience = [
   {
     id: 1,
     title: "Bachelor of Technology in Computer Science - KIIT University",
     desc: "Pursuing a B.Tech degree in Computer Science, focusing on web development and software engineering",
     className: "md:col-span-2",
-    points: 91.2,
+    points: 9.06,
     thumbnail: "/kiit.png",
   },
   {
@@ -206,5 +205,43 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/jeet-das-7633a52ab",
+  },
+];
+
+export const workExperience = [
+  {
+    image: "/sida.png",
+    duration: "2025 October - Present",
+    title: "Frontend Developer Intern - SIDA Technologies",
+    description:
+      "Contributed to front-end development using React.js by implementing UI improvements and resolving design issues in client projects.",
+  },
+  {
+    image: "/pv.jpg",
+    duration: "2025 August - 2025 September",
+    title: "Full Stack Developer Intern - Prime Vacations",
+    description:
+      "Contributed to the development of the Prime Vacations' official website and package builder - an internal tool for sales team.",
+  },
+  {
+    image: "/konnexions.jpg",
+    duration: "2023 - Present",
+    title: "Web Dev Lead - Konnexions",
+    description:
+      "Worked on several key projects and events like Kodesphere, Kwickswap, AI Odessey, KSAC Venue Booking System.",
+  },
+  {
+    image: "/gfg.jpg",
+    duration: "2023 - Present",
+    title: "Administration Lead - GFG KIIT",
+    description:
+      "Organised few events like Genesis-speaker session, Relaython-3 hour hackathon. Currently serving as POC of AI/ML domain.",
+  },
+  {
+    image: "/iot.jpg",
+    duration: "2023 - Present",
+    title: "Web Developer - IoT Lab KIIT",
+    description:
+      "Built the Innovance website and a sample portfolio website for the event INNOVANCE 3.O. Currently working on Nexturday - an event management app.",
   },
 ];

@@ -1,7 +1,6 @@
-import { workExperience } from "@/data";
-import React from "react";
-import { Button } from "./ui/MovingBorder";
 import Image from "next/image";
+import { Button } from "./ui/MovingBorder";
+import { academicsExperience } from "@/data";
 
 const Experience = () => {
   return (
@@ -12,7 +11,7 @@ const Experience = () => {
       </h1>
 
       <div className="w-full grid lg:grid-cols-4 grid-cols-1 gap-10 mt-4">
-        {workExperience.map((card) => (
+        {academicsExperience.map((card) => (
           <Button
             key={card.id}
             duration={Math.floor(Math.random() * 10000) + 10000}
@@ -34,7 +33,9 @@ const Experience = () => {
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
                 </p>
-                <p className="text-sm text-start text-white-500 mt-1">Grade: {card.points}</p>
+                <p className="text-sm text-start text-white-500 mt-1">
+                  Grade: {card.points}
+                </p>
               </div>
             </div>
           </Button>
