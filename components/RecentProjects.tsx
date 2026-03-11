@@ -1,6 +1,7 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
 import { projects } from "@/data";
 import dynamic from "next/dynamic";
@@ -73,7 +74,7 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center gap-4">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                     Check Live Site
                   </p>

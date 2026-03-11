@@ -103,6 +103,14 @@ export const projects = [
     iconLists: ["/re.svg", "/three.svg"],
     link: "https://3dportfolio.jeetdas.tech",
   },
+  {
+    id: 5,
+    title: "LinkPost AI",
+    des: "LinkPost AI is an AI-powered tool to generate engaging LinkedIn posts with ease, featuring a modern responsive UI with light and dark themes.",
+    img: "/linkpostai.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gemini.svg"],
+    link: "https://linkpostai.jeetdas.site",
+  },
 ];
 
 export const testimonials = [
