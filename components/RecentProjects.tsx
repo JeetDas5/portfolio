@@ -1,7 +1,6 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
 import { projects } from "@/data";
 import dynamic from "next/dynamic";
@@ -63,7 +62,7 @@ const RecentProjects = () => {
                       }}
                     >
                       <Image
-                        src={icon}
+                        src={icon || ""}
                         alt="icon"
                         width={30}
                         height={30}

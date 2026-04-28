@@ -73,43 +73,51 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "MeetAI",
+    des: "MeetAI is a full-stack AI meeting platform that runs realtime voice sessions with custom agents, then automatically generates transcript-based summaries and follow-up chat.",
+    img: "/meetai.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://meetai.jeetdas.site",
+  },
+  {
+    id: 2,
+    title: "Hireboard",
+    des: "HireBoard is a premium, AI-powered job application tracker designed to streamline your career search. Stop manually copy-pasting details into spreadsheets; let AI handle the heavy lifting while you focus on landing your dream role.",
+    img: "/hireboard.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", , "/gemini.svg"],
+    link: "https://hireboard.jeetdas.site",
+  },
+  {
+    id: 3,
     title: "Resumind",
     des: "Smart, AI-powered resume feedback with ATS scoring, improvement tips, and application tracking. Resumind lets you upload a resume (PDF), analyzes it with an AI model, and provides structured feedback across ATS fit, tone & style, content, structure, and skills.",
     img: "/resumind.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://resumind.jeetdas.tech",
-  },
-  {
-    id: 2,
-    title: "VOCIFY: An AI powered interview platform",
-    des: "A platform that helps you prepare for your interviews and also give you feedback.",
-    img: "/vocify.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/firebase.svg"],
-    link: "https://vocify.jeetdas.tech",
-  },
-  {
-    id: 3,
-    title: "LEARNSPHERE: Your Own Learning Companion",
-    des: "LearnSphere is a modern SaaS learning platform that empowers users to interact with AI-powered voice tutors.",
-    img: "/learnsphere.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/supabase.svg"],
-    link: "https://learnsphere.jeetdas.tech",
+    link: "https://resumind.jeetdas.site",
   },
   {
     id: 4,
-    title: "3D Portfolio",
-    des: "A 3D portfolio made with three Js showcasing my skills and projects",
-    img: "/3d.png",
-    iconLists: ["/re.svg", "/three.svg"],
-    link: "https://3dportfolio.jeetdas.tech",
-  },
-  {
-    id: 5,
     title: "LinkPost AI",
     des: "LinkPost AI is an AI-powered tool to generate engaging LinkedIn posts with ease, featuring a modern responsive UI with light and dark themes.",
     img: "/linkpostai.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gemini.svg"],
     link: "https://linkpostai.jeetdas.site",
+  },
+  {
+    id: 5,
+    title: "Learnsphere",
+    des: "LearnSphere is a modern SaaS learning platform that empowers users to interact with AI-powered voice tutors.",
+    img: "/learnsphere.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/supabase.svg"],
+    link: "https://learnsphere.jeetdas.site",
+  },
+  {
+    id: 6,
+    title: "3D Portfolio",
+    des: "A 3D portfolio made with three Js showcasing my skills and projects",
+    img: "/3d.png",
+    iconLists: ["/re.svg", "/three.svg"],
+    link: "https://3dportfolio.jeetdas.site",
   },
 ];
 
@@ -219,31 +227,31 @@ export const socialMedia = [
 export const workExperience = [
   {
     image: "/sida.png",
-    duration: "2025 October - Present",
+    duration: "2025 October - 2026 July",
     title: "Frontend Developer Intern - SIDA Technologies",
     description:
-      "Contributed to front-end development using React.js by implementing UI improvements and resolving design issues in client projects.",
+      "Contributed across 6 client projects, including 4 major initiatives and 2 minor engagements, delivering scalable frontend solutions using Next.js, tailwind and framer motion.",
   },
   {
     image: "/pv.jpg",
     duration: "2025 August - 2025 September",
     title: "Full Stack Developer Intern - Prime Vacations",
     description:
-      "Contributed to the development of the Prime Vacations' official website and package builder - an internal tool for sales team.",
+      "Contributed to and optimized an internal Package Builder tool using Next.js, Node.js, and MongoDB, streamlining sales operations. Improved application state management, enhancing scalability, maintainability, and overall performance.",
   },
   {
     image: "/konnexions.jpg",
     duration: "2023 - Present",
-    title: "Web Dev Lead - Konnexions",
+    title: "Web Dev and CP Lead - Konnexions",
     description:
-      "Worked on several key projects and events like Kodesphere, Kwickswap, AI Odessey, KSAC Venue Booking System.",
+      "Worked on several key projects and events like Kodesphere, Kwickswap, AI Odessey, KSAC Venue Booking System and KIITFEST 9.0.",
   },
   {
     image: "/gfg.jpg",
     duration: "2023 - Present",
     title: "Administration Lead - GFG KIIT",
     description:
-      "Organised few events like Genesis-speaker session, Relaython-3 hour hackathon. Currently serving as POC of AI/ML domain.",
+      "Organised few events like Genesis-speaker session, Relaython-3 hour hackathon. I served as POC of AI/ML domain.I was also involved in the recruitment process, helping onboard new members to our community",
   },
   {
     image: "/iot.jpg",
