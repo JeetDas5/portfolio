@@ -73,6 +73,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "HappyCoding",
+    des: "A platform that gamifies competitive programming practice through streaks, points, and leaderboards. Users can sync their Codeforces accounts, track their daily problem-solving progress, and compete with others in the HappyCoding community",
+    img: "/happycoding.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://happycoding.jeetdas.site",
+  },
+  {
+    id: 2,
     title: "MeetAI",
     des: "MeetAI is a full-stack AI meeting platform that runs realtime voice sessions with custom agents, then automatically generates transcript-based summaries and follow-up chat.",
     img: "/meetai.png",
@@ -80,7 +88,7 @@ export const projects = [
     link: "https://meetai.jeetdas.site",
   },
   {
-    id: 2,
+    id: 3,
     title: "Hireboard",
     des: "HireBoard is a premium, AI-powered job application tracker designed to streamline your career search. Stop manually copy-pasting details into spreadsheets; let AI handle the heavy lifting while you focus on landing your dream role.",
     img: "/hireboard.png",
@@ -88,7 +96,7 @@ export const projects = [
     link: "https://hireboard.jeetdas.site",
   },
   {
-    id: 3,
+    id: 4,
     title: "Resumind",
     des: "Smart, AI-powered resume feedback with ATS scoring, improvement tips, and application tracking. Resumind lets you upload a resume (PDF), analyzes it with an AI model, and provides structured feedback across ATS fit, tone & style, content, structure, and skills.",
     img: "/resumind.png",
@@ -96,21 +104,14 @@ export const projects = [
     link: "https://resumind.jeetdas.site",
   },
   {
-    id: 4,
+    id: 5,
     title: "LinkPost AI",
     des: "LinkPost AI is an AI-powered tool to generate engaging LinkedIn posts with ease, featuring a modern responsive UI with light and dark themes.",
     img: "/linkpostai.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gemini.svg"],
     link: "https://linkpostai.jeetdas.site",
   },
-  {
-    id: 5,
-    title: "Learnsphere",
-    des: "LearnSphere is a modern SaaS learning platform that empowers users to interact with AI-powered voice tutors.",
-    img: "/learnsphere.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/supabase.svg"],
-    link: "https://learnsphere.jeetdas.site",
-  },
+
   {
     id: 6,
     title: "3D Portfolio",
