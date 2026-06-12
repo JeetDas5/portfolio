@@ -194,7 +194,7 @@ export const academicsExperience = [
     title: "Bachelor of Technology in Computer Science - KIIT University",
     desc: "Pursuing a B.Tech degree in Computer Science, focusing on web development and software engineering",
     className: "md:col-span-2",
-    points: 9.06,
+    points: 8.98,
     thumbnail: "/kiit.png",
   },
   {
@@ -228,7 +228,7 @@ export const socialMedia = [
 export const workExperience = [
   {
     image: "/sida.png",
-    duration: "2025 October - 2026 July",
+    duration: "2025 October - 2026 April",
     title: "Frontend Developer Intern - SIDA Technologies",
     description:
       "Contributed across 6 client projects, including 4 major initiatives and 2 minor engagements, delivering scalable frontend solutions using Next.js, tailwind and framer motion.",
