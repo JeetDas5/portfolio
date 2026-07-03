@@ -227,6 +227,13 @@ export const socialMedia = [
 
 export const workExperience = [
   {
+    image: "/rh.jpg",
+    duration: "2026 May - Present",
+    title: "Software Developer - Rewards Hub",
+    description:
+      "Developing NexBrix, an inventory management platform built from the ground up using Next.js, FastAPI, and PostgreSQL. I am responsible for full-stack feature development, API implementation, and database design.",
+  },
+  {
     image: "/sida.png",
     duration: "2025 October - 2026 April",
     title: "Frontend Developer Intern - SIDA Technologies",
