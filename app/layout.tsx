@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react"
-
-
+import { Analytics } from "@vercel/analytics/react";
 
 import "./globals.css";
 // import { ThemeProvider } from "./provider";
@@ -10,9 +8,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://jeetdas.site"),
+  metadataBase: new URL("https://jeetdas.site"),
   title: {
-    default: "Jeet Das | Full Stack Developer",
+    default: "Jeet Das | Software Developer",
     template: "%s | Jeet Das",
   },
   description:
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
   applicationName: "Jeet Das Portfolio",
   keywords: [
     "Jeet Das",
-    "Full Stack Developer",
+    "Software Developer",
     "Next.js Developer",
     "React Developer",
     "TypeScript",
@@ -99,8 +97,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         > */}
-          {children}
-          <Analytics />
+        {children}
+        <Analytics />
         {/* </ThemeProvider> */}
       </body>
     </html>

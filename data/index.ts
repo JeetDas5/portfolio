@@ -122,39 +122,6 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Jeet was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Jeet's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Jeet is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
 export const companies = [
   {
     id: 1,
@@ -247,25 +214,25 @@ export const workExperience = [
     description:
       "Contributed to and optimized an internal Package Builder tool using Next.js, Node.js, and MongoDB, streamlining sales operations. Improved application state management, enhancing scalability, maintainability, and overall performance.",
   },
-  {
-    image: "/konnexions.jpg",
-    duration: "2023 - Present",
-    title: "Web Dev and CP Lead - Konnexions",
-    description:
-      "Worked on several key projects and events like Kodesphere, Kwickswap, AI Odessey, KSAC Venue Booking System and KIITFEST 9.0.",
-  },
-  {
-    image: "/gfg.jpg",
-    duration: "2023 - Present",
-    title: "Administration Lead - GFG KIIT",
-    description:
-      "Organised few events like Genesis-speaker session, Relaython-3 hour hackathon. I served as POC of AI/ML domain.I was also involved in the recruitment process, helping onboard new members to our community",
-  },
-  {
-    image: "/iot.jpg",
-    duration: "2023 - Present",
-    title: "Web Developer - IoT Lab KIIT",
-    description:
-      "Built the Innovance website and a sample portfolio website for the event INNOVANCE 3.O. Currently working on Nexturday - an event management app.",
-  },
+  // {
+  //   image: "/konnexions.jpg",
+  //   duration: "2023 - Present",
+  //   title: "Web Dev and CP Lead - Konnexions",
+  //   description:
+  //     "Worked on several key projects and events like Kodesphere, Kwickswap, AI Odessey, KSAC Venue Booking System and KIITFEST 9.0.",
+  // },
+  // {
+  //   image: "/gfg.jpg",
+  //   duration: "2023 - Present",
+  //   title: "Administration Lead - GFG KIIT",
+  //   description:
+  //     "Organised few events like Genesis-speaker session, Relaython-3 hour hackathon. I served as POC of AI/ML domain.I was also involved in the recruitment process, helping onboard new members to our community",
+  // },
+  // {
+  //   image: "/iot.jpg",
+  //   duration: "2023 - Present",
+  //   title: "Web Developer - IoT Lab KIIT",
+  //   description:
+  //     "Built the Innovance website and a sample portfolio website for the event INNOVANCE 3.O. Currently working on Nexturday - an event management app.",
+  // },
 ];
